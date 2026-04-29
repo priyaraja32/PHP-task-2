@@ -1,9 +1,9 @@
 <?php
 
-include "vitals.php";
-include "validate.php";
-include "rules.php";
-include "scanner.php";
+include_once "vitals.php";
+include_once "validate.php";
+include_once "rules.php";
+include_once "scanner.php";
 
 foreach ($vitals as $vital) {
 
